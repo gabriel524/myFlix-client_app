@@ -1,7 +1,7 @@
 {
   "name": "myflix-client-app",
   "version": "1.0.0",
-  "homepage": "https://github.com/gabriel524/myFlix-client-app#readme",
+  "homepage": "https://github.com/gabriel524/myFlix-client-app/",
   "description": "For this applciation, I will be using React as a framework to buildind the client-side for an application called myFlix-client based on its existing server-side code (REST API and database). The application is a single-page application (SPA) and uses state routing to navigate between views and sharing URLs",
   "source": "src/index.html",
   "scripts": {
