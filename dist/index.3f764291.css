@@ -1,0 +1,97 @@
+.movie-card {
+  cursor: pointer;
+  transition: all 0.28s;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  width: 15rem;
+  min-height: 12rem;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+body, html {
+  background: #1d91ae;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  width: 100%;
+  background: #1d91ae;
+}
+
+.movieViewContainer {
+  background: hwb(0 2% 8%);
+}
+
+.main-view nav {
+  list-style: none;
+  padding: 100;
+  margin: 0;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+}
+
+.w-full {
+  max-height: 100%;
+  background-color: hwb(300 0% 50%);
+  margin-left: -20px;
+  margin-right: -20px;
+  position: absolute;
+}
+
+.w-fully {
+  background-color: hwb(300 0% 50%);
+}
+
+.justify-content-md-center {
+  margin-top: 30px;
+}
+
+.justify-content-sm-center {
+  margin-top: 150px;
+  position: relative;
+}
+
+.title {
+  color: hwb(300 0% 50%);
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#button {
+  font-size: 16px;
+}
+
+.text {
+  text-align: center;
+}
+
+.form-text {
+  margin-bottom: 10px;
+  color: green;
+}
+
+.cont {
+  background-color: white;
+  margin-top: 130px;
+  position: relative;
+}
+/*# sourceMappingURL=index.3f764291.css.map */

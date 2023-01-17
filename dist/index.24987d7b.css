@@ -1,0 +1,107 @@
+
+
+.movie-card {
+  cursor: pointer;
+  width: 15rem;
+  min-height: 12rem;
+  transition: all .28s;
+  box-shadow: 1px 1px 2px #0000001a;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 7px #0003;
+}
+
+.card-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-warning {
+  width: -1px;
+  padding-right: 20px;
+}
+
+
+
+
+
+body, html {
+  background: #1d91ae;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  background: #1d91ae;
+}
+
+.movieViewContainer {
+  background: #eb0505;
+}
+
+.main-view nav {
+  width: 100%;
+  margin: 0;
+  padding: 100px;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+
+.w-full {
+  max-height: 100%;
+  background-color: purple;
+  margin-left: -20px;
+  margin-right: -20px;
+  position: absolute;
+}
+
+.w-fully {
+  background-color: purple;
+}
+
+.justify-content-md-center {
+  margin-top: 30px;
+}
+
+.justify-content-sm-center {
+  margin-top: 150px;
+  position: relative;
+}
+
+.title {
+  color: purple;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#button {
+  font-size: 16px;
+}
+
+.text {
+  text-align: center;
+}
+
+.form-text {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.cont {
+  background-color: #fff;
+  margin-top: 130px;
+  position: relative;
+}
+
+/*# sourceMappingURL=index.24987d7b.css.map */
